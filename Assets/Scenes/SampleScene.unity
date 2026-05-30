@@ -1114,21 +1114,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10869373137b265409d68abc3aa1e267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  controlType: 1
+  playerConfig: {fileID: 0}
+  controlType: 0
   joystick: {fileID: 2093818181}
-  speed: 8
-  keyIcon: {fileID: 292473893}
-  health: 20
-  healthDisplay: {fileID: 1897182175}
-  shield: {fileID: 857970439}
-  shieldTimer: {fileID: 1181442281}
-  unlockedWeapons:
-  - {fileID: 1966840504}
-  allWeapons:
-  - {fileID: 1966840504}
-  - {fileID: 1412891026}
-  - {fileID: 1984552374}
-  weaponIcon: {fileID: 908560975}
 --- !u!50 &694374086
 Rigidbody2D:
   serializedVersion: 5
